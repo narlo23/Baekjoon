@@ -1,6 +1,6 @@
 n = int(input())
 m = int(input())
-parents = [i for i in range(n)] #처음 부모는 자기자신
+parents = [i for i in range(n)]
 
 def union(x, y):
     x = find(x)
